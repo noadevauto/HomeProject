@@ -1,9 +1,16 @@
 package HomeProject;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MetricaPage extends  BasePage{
+public class MeasurementPage extends  BasePage{
+
+    public MeasurementPage(WebDriver d) {
+        super(d);
+        super.initilizeElements(this);
+    }
+
 
     @FindBy(css="#mainLinks [href*='celsius-to-fahrenheit']")
     public WebElement celsiusToFarenButton;

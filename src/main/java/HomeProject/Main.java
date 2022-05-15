@@ -1,4 +1,6 @@
-package HomeProject;public class Main {
+package HomeProject;
+
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
